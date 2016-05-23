@@ -24,7 +24,10 @@ CMD ["-h"]
 # Without any arguments
 # sudo docker run docker run ubuntu/tbl2asn -h
 # With arguments
-# sudo docker run --rm -v $(pwd):/working-dir -w /working-dir ubuntu/quast-4.0 contigs_1.fasta contigs_2.fasta -R reference.fasta.gz -O operons.txt -G genes.txt -o quast_test_out
-# SV calling
-# sudo docker run --rm -v $(pwd):/working-dir -w /working-dir ubuntu/quast-4.0 -o quast_test_output_sv -R reference.fasta.gz -O operons.gff -G genes.gff --gage  --gene-finding  --eukaryote  --glimmer  -1 reads1.fastq.gz -2 reads2.fastq.gz contigs_1.fasta contigs_2.fasta
+# All the files in the current directory
+# sudo docker run --rm -v $(pwd):/working-dir -w /working-dir ubuntu/tbl2asn -t template.sbt -p . -a s -V v -j "[organism=Saccharomyces cerevisiae] [strain=S288C]" 
+
+# Testing in a directory of files
+# mkdir dir && cp test.fsa dir
+# sudo docker run --rm -v $(pwd):/working-dir -w /working-dir ubuntu/tbl2asn -t template.sbt -p dir -a s -V v -j "[organism=Saccharomyces cerevisiae] [strain=S288C]"
 
