@@ -1,0 +1,821 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "DEVISETTY" ,
+            first "UPENDRA KUMAR" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "CyVerse" ,
+            div "Bio5" ,
+            city "Tucons" ,
+            sub "Arizona" ,
+            country "United States of America" ,
+            street "1657 E Helen St" ,
+            email "upendrakumar.devisetty@googlemail.com" ,
+            postal-code "85721" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Devisetty" ,
+                  first "Upendra Kumar" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "CyVerse" ,
+            div "Bio5" ,
+            city "Tucons" ,
+            sub "Arizona" ,
+            country "United States of America" ,
+            street "1657 E Helen St" ,
+            postal-code "85721" } } ,
+      date
+        std {
+          year 2016 ,
+          month 5 ,
+          day 23 } } ,
+    subtype new ,
+    tool "tbl2asn 24.9 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class genbank ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "At1NC030880" } ,
+            descr {
+              source {
+                org {
+                  taxname "Saccharomyces cerevisiae" ,
+                  common "baker's yeast" ,
+                  db {
+                    {
+                      db "taxon" ,
+                      tag
+                        id 4932 } } ,
+                  orgname {
+                    mod {
+                      {
+                        subtype strain ,
+                        subname "S288C" } } ,
+                    lineage "Eukaryota; Fungi; Ascomycota; Saccharomycetes;
+ Saccharomycetales; Saccharomycetaceae; Saccharomyces" ,
+                    gcode 1 ,
+                    mgcode 3 ,
+                    div "PLN" } } } ,
+              molinfo {
+                biomol genomic } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "Devisetty" ,
+                                first "Upendra Kumar" ,
+                                initials "U.K." } } } } ,
+                    title "test title" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 5 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 23 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2016 } } } ,
+              create-date
+                std {
+                  year 2016 ,
+                  month 5 ,
+                  day 23 } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 368 ,
+              seq-data
+                iupacna "CTTACTATATATTAGAGGAGGGGTGAAAAAAAAAGTAGAGAGACTGGTCCAAA
+AACTTAACCCCACTCAATAAACCCAGACGTGACTTGTTTGACGATAACTCCATCTTTCTATTTTGGGTAACGAGGTCC
+CCTTCCCATTACGTCTTGACGTGGACCCTGTCCGTCTATTTTTAGCAGATTAATCCAACGGTTCTTATTCTTTCTTCG
+ACCCTTCACGACATTGCCTCAAAGCCGTCCGATTCTCATCTCACGCCCAATGGACCACATATATCACCAGTACTCCGC
+AACTTAGCTGTCGTGTAGGATTTCACGTGGCATTTATTTGTTCTAGTTTGTAGTGCAAACATTGCAAGTTGATATGGT
+CCC" } } ,
+          seq {
+            id {
+              local
+                str "At1NC109810" } ,
+            descr {
+              source {
+                org {
+                  taxname "Saccharomyces cerevisiae" ,
+                  common "baker's yeast" ,
+                  db {
+                    {
+                      db "taxon" ,
+                      tag
+                        id 4932 } } ,
+                  orgname {
+                    mod {
+                      {
+                        subtype strain ,
+                        subname "S288C" } } ,
+                    lineage "Eukaryota; Fungi; Ascomycota; Saccharomycetes;
+ Saccharomycetales; Saccharomycetaceae; Saccharomyces" ,
+                    gcode 1 ,
+                    mgcode 3 ,
+                    div "PLN" } } } ,
+              molinfo {
+                biomol genomic } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "Devisetty" ,
+                                first "Upendra Kumar" ,
+                                initials "U.K." } } } } ,
+                    title "test title" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 5 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 23 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2016 } } } ,
+              create-date
+                std {
+                  year 2016 ,
+                  month 5 ,
+                  day 23 } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 766 ,
+              seq-data
+                iupacna "CATAGAGTCAAAAAAAAGAAGAAGAAGATAATTCTACATAAAGATAAATGAAT
+GAAAAAACCTCATAATATATTATAGTTGCATATATTCAGAAATCAGAATAATATGAAACGAAATAGTGAATTTTGGTG
+GAAAGCTGGTATTTTTTGCACTGGTCAGAGTCGGTTTAGTAGTAGTATGATGGGAAGTTTGAATGAATCAGCCAAACA
+CACTATTCAAAGAACAAGTCAATGTCTTTTAATTTGCAGATAATTAAGGTGATGCTCTGTTCCTCGTTTGTAGTAACA
+GAAGTTGATTCTCTGTCTTTTATAAAAAAAGAGGTAATTTGGATTACCTCATTTCGGCTATCACCAGAGGCATGATTC
+TCTGTGATAAACATTCCCGACCCCGAATCTTCACTTCAGGGAAGACCCGGACACCAGACTGCAGTCTGGTCATGACGG
+AGTCACAATAAACTCCTTTGTCATTCATCTTCCATTGACACTCAGTGGAAGCCAACCATCATCACTCGATGGAAGTCG
+AGAGGAAACAATTTTTCCTTCTCACTCGGGGTACCAATTTCGTTACTCGAACCCTGGTGCGACTCCAGCATCATGCTG
+AGTCACTACCACTTTGCTGGGTGAGTATTGGTGTCCCTTTTCTATTTTATAGATAATTAAACGTTTTAAACACACAAC
+TTAATTCCGGGTTTAATCCGGTTCACTAAAGATTTTCATAACCAGAATATATTACGCGTATGTGGATCATTTACCACC
+AAGTCAACATA" } } ,
+          seq {
+            id {
+              local
+                str "At1NC021050" } ,
+            descr {
+              source {
+                org {
+                  taxname "Saccharomyces cerevisiae" ,
+                  common "baker's yeast" ,
+                  db {
+                    {
+                      db "taxon" ,
+                      tag
+                        id 4932 } } ,
+                  orgname {
+                    mod {
+                      {
+                        subtype strain ,
+                        subname "S288C" } } ,
+                    lineage "Eukaryota; Fungi; Ascomycota; Saccharomycetes;
+ Saccharomycetales; Saccharomycetaceae; Saccharomyces" ,
+                    gcode 1 ,
+                    mgcode 3 ,
+                    div "PLN" } } } ,
+              molinfo {
+                biomol genomic } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "Devisetty" ,
+                                first "Upendra Kumar" ,
+                                initials "U.K." } } } } ,
+                    title "test title" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 5 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 23 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2016 } } } ,
+              create-date
+                std {
+                  year 2016 ,
+                  month 5 ,
+                  day 23 } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 263 ,
+              seq-data
+                iupacna "ATCTCTTCTCTGCTCTTTCTCTCTATCAACACACAGTCTCTTTATGTAAGATA
+CTGTAGATTTATAATGTGTGGAGAAAGAAGAGAAAGCTTGCTTGGGACACCTTTCACCTTTTTATCTTGCCTTCGCGT
+AACAGTCTGTAATGGGAAAAATACGAAATGACGCAGAGTCGTAGAAGTCAAGACGAAGATACCATCCTTTTTTACTTT
+ACCAAATTACCCTCCGAGTAAACCGGGTTTACCAATACAATGACAACCGGTTTG" } } ,
+          seq {
+            id {
+              local
+                str "At1NC046910" } ,
+            descr {
+              source {
+                org {
+                  taxname "Saccharomyces cerevisiae" ,
+                  common "baker's yeast" ,
+                  db {
+                    {
+                      db "taxon" ,
+                      tag
+                        id 4932 } } ,
+                  orgname {
+                    mod {
+                      {
+                        subtype strain ,
+                        subname "S288C" } } ,
+                    lineage "Eukaryota; Fungi; Ascomycota; Saccharomycetes;
+ Saccharomycetales; Saccharomycetaceae; Saccharomyces" ,
+                    gcode 1 ,
+                    mgcode 3 ,
+                    div "PLN" } } } ,
+              molinfo {
+                biomol genomic } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "Devisetty" ,
+                                first "Upendra Kumar" ,
+                                initials "U.K." } } } } ,
+                    title "test title" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 5 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 23 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2016 } } } ,
+              create-date
+                std {
+                  year 2016 ,
+                  month 5 ,
+                  day 23 } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 505 ,
+              seq-data
+                iupacna "CCAGAAACACATGCCAACTTGTCTTTCTCACTATAGTCACCACCAAGAAATTG
+AGCTTCAGTCATCGCAATCCACTCTTCGGATTACCTTTAGTGAAGATCCGGAGGTCCAGCTGTCTACCGTCATCTGAA
+ATCGATCGAGATTCAATCCTCTCTACTGCGCAAACCATTCGCTTCAAGGTTTCCTCCATCGAAGTCAACATCTCCAAA
+AATTGCACCTCCGATTGGCATAGTAGCTTGAATCCGCCCATGAGGAACTCCAATTGTTTCTTCGCAGCATCATTATCC
+ACCAATGTTAAGTTGTTGATATCCCAAACTCCAATTTCAAATACAATACTCAAATAGAAAGATGATCCGACTGATTAT
+CAAAACAATAACCAATGCAAATCCAGAAACATAATCATTCGCCTGAACATTCAACCTCACGATAACATAGAGATCAAC
+ATTGATCTCTCCTCAAGCACATCGCTTGGCCAAATTCTGACAAAAAAAACTCTCACAACATC" } } ,
+          seq {
+            id {
+              local
+                str "At1NC081700" } ,
+            descr {
+              source {
+                org {
+                  taxname "Saccharomyces cerevisiae" ,
+                  common "baker's yeast" ,
+                  db {
+                    {
+                      db "taxon" ,
+                      tag
+                        id 4932 } } ,
+                  orgname {
+                    mod {
+                      {
+                        subtype strain ,
+                        subname "S288C" } } ,
+                    lineage "Eukaryota; Fungi; Ascomycota; Saccharomycetes;
+ Saccharomycetales; Saccharomycetaceae; Saccharomyces" ,
+                    gcode 1 ,
+                    mgcode 3 ,
+                    div "PLN" } } } ,
+              molinfo {
+                biomol genomic } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "Devisetty" ,
+                                first "Upendra Kumar" ,
+                                initials "U.K." } } } } ,
+                    title "test title" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 5 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 23 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2016 } } } ,
+              create-date
+                std {
+                  year 2016 ,
+                  month 5 ,
+                  day 23 } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 233 ,
+              seq-data
+                iupacna "TTGGAAAAATTAGGATTCAGGCGTGATAAACCCGCCGAAACTGTTAAGGAAAG
+CGATGTCGTTCGTCGTAGAATCAAAAAAGAGGATTTGAGGAATGTAACCTGAAGTATCACGATATGGAGACGACGGAG
+AAGGAGGAGAAAGAAGCAGAGACCTCGCCGGAATCAAAAAGCCTAAAAGAGTATTTTTGTACGTAGAATGAAAAGTGG
+AGGAGGAGGCTGAGTTTATATATA" } } ,
+          seq {
+            id {
+              local
+                str "At1NC113110" } ,
+            descr {
+              source {
+                org {
+                  taxname "Saccharomyces cerevisiae" ,
+                  common "baker's yeast" ,
+                  db {
+                    {
+                      db "taxon" ,
+                      tag
+                        id 4932 } } ,
+                  orgname {
+                    mod {
+                      {
+                        subtype strain ,
+                        subname "S288C" } } ,
+                    lineage "Eukaryota; Fungi; Ascomycota; Saccharomycetes;
+ Saccharomycetales; Saccharomycetaceae; Saccharomyces" ,
+                    gcode 1 ,
+                    mgcode 3 ,
+                    div "PLN" } } } ,
+              molinfo {
+                biomol genomic } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "Devisetty" ,
+                                first "Upendra Kumar" ,
+                                initials "U.K." } } } } ,
+                    title "test title" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 5 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 23 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2016 } } } ,
+              create-date
+                std {
+                  year 2016 ,
+                  month 5 ,
+                  day 23 } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 381 ,
+              seq-data
+                iupacna "CTTGTTCATGGTATGTAGTAGACTACTATCTACAATTGAAGTGGACCACGATG
+AAAAAGGTATTCAGATAGAATTAAAGACAAAAACACATTGGCTAGATGATAAGGCTGATTCTGAGCCCAGGAGCACCC
+GGTAGTTAATGGTTAAGAGTGGGTATCAAAGTAATAAACAGAAACTGTGGGGGCGAATTAGAGAAATATGGGGAGAAA
+TGAAGGGTATAGTTGCAATGGTGGCATTTCAGTTTATATTGGCAGGAATGTTCATCTTGTTGAAGCTAACGGCCGCTG
+ATGGTACGAACCTCAAAGTCCTTGTCGCTTATCGTCTCTCCTTCGCTACTCTTTTCATTCTTCCCCTCACCCTCGTCT
+CCAAAAGGATGAAACA" } } ,
+          seq {
+            id {
+              local
+                str "At1NC058450" } ,
+            descr {
+              source {
+                org {
+                  taxname "Saccharomyces cerevisiae" ,
+                  common "baker's yeast" ,
+                  db {
+                    {
+                      db "taxon" ,
+                      tag
+                        id 4932 } } ,
+                  orgname {
+                    mod {
+                      {
+                        subtype strain ,
+                        subname "S288C" } } ,
+                    lineage "Eukaryota; Fungi; Ascomycota; Saccharomycetes;
+ Saccharomycetales; Saccharomycetaceae; Saccharomyces" ,
+                    gcode 1 ,
+                    mgcode 3 ,
+                    div "PLN" } } } ,
+              molinfo {
+                biomol genomic } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "Devisetty" ,
+                                first "Upendra Kumar" ,
+                                initials "U.K." } } } } ,
+                    title "test title" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 5 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 23 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2016 } } } ,
+              create-date
+                std {
+                  year 2016 ,
+                  month 5 ,
+                  day 23 } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 384 ,
+              seq-data
+                iupacna "GCCCTAAACAAATGGGCTAATGACATTACATTGAGTTTGTTGGCACACTTGCC
+CTACAATGGGGTTTGTGTTATTTTAAGATAATCAAATATATATCAGTGTTATATTTTCATCTATAAAAGTTCAGGGTT
+TTATAGAATTGGGCACTTATTGGCTCAAAAATTAGAGAAATATAACTTTCTAATGGGCTTATAGAAATGGGTACTTGT
+TGGAGTTGAAAATGATAATTTTGCCCCTTTCTCCAGTTTATGGTGTTCTCTTCTTCATCATCGTCTTCTTCTTCGTCA
+CGACAACTTTTCCGAGTTTTCACCAGCGCACTTACTTCATTTACGCCCTACTCACCTATTCTATCATCACAATATCCG
+TCAACACCTGTTTCCTCTA" } } ,
+          seq {
+            id {
+              local
+                str "At1NC029200" } ,
+            descr {
+              source {
+                org {
+                  taxname "Saccharomyces cerevisiae" ,
+                  common "baker's yeast" ,
+                  db {
+                    {
+                      db "taxon" ,
+                      tag
+                        id 4932 } } ,
+                  orgname {
+                    mod {
+                      {
+                        subtype strain ,
+                        subname "S288C" } } ,
+                    lineage "Eukaryota; Fungi; Ascomycota; Saccharomycetes;
+ Saccharomycetales; Saccharomycetaceae; Saccharomyces" ,
+                    gcode 1 ,
+                    mgcode 3 ,
+                    div "PLN" } } } ,
+              molinfo {
+                biomol genomic } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "Devisetty" ,
+                                first "Upendra Kumar" ,
+                                initials "U.K." } } } } ,
+                    title "test title" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 5 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 23 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2016 } } } ,
+              create-date
+                std {
+                  year 2016 ,
+                  month 5 ,
+                  day 23 } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 222 ,
+              seq-data
+                iupacna "CAACTGTATCTTCTTCTTTTTTCTCTTTTTCCGACCACCACCACGTTTCCTCC
+GCCAAATTTTTTAGATTTGTTTCTGTTATATTCTCCACCGGATTCTTTTGTTTCGACTACGTTCACAAAAACTAAACC
+CTAAAGGATAGTGCACATAGGGAACCCAAGGAGAAAATCAAACGGATTGAGAGTATTAATCTTCTTCCTCTCTTTTTT
+CTGTCAAATTGTG" } } ,
+          seq {
+            id {
+              local
+                str "At1NC005480" } ,
+            descr {
+              source {
+                org {
+                  taxname "Saccharomyces cerevisiae" ,
+                  common "baker's yeast" ,
+                  db {
+                    {
+                      db "taxon" ,
+                      tag
+                        id 4932 } } ,
+                  orgname {
+                    mod {
+                      {
+                        subtype strain ,
+                        subname "S288C" } } ,
+                    lineage "Eukaryota; Fungi; Ascomycota; Saccharomycetes;
+ Saccharomycetales; Saccharomycetaceae; Saccharomyces" ,
+                    gcode 1 ,
+                    mgcode 3 ,
+                    div "PLN" } } } ,
+              molinfo {
+                biomol genomic } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "Devisetty" ,
+                                first "Upendra Kumar" ,
+                                initials "U.K." } } } } ,
+                    title "test title" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 5 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 23 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2016 } } } ,
+              create-date
+                std {
+                  year 2016 ,
+                  month 5 ,
+                  day 23 } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 369 ,
+              seq-data
+                iupacna "TGTGTAAATTTGATAGGAAAAAGACAATTATTAAAAAAGAAAAGGTCTGAGAA
+AGGAGTTAGCAACAAGAAACAGATGGATGGATGGAAATTGGGATGTCAGCTTTAAAGGGGTTTTGCTTGAAGAAGAGA
+TCGACTGACCAAACTTAGACATTGAATTAGGTAAAGTGACAGTCTCCTCTTTCAAGCAAAGCACCTAACTTCTACCAT
+CCTCTCCTCTCTCACACTACCAATTCATTGATTCTCCAATATACCAAATTAAACCAAACATAACCGACCGGTCGGAAG
+ATTTGGGTTAGTGATTGAACTAAAAAGGTAAAACTCAGGTAACACGACCCGTACCTTTCATTATGATTATATGGAGAG
+CTTC" } } } } } }
